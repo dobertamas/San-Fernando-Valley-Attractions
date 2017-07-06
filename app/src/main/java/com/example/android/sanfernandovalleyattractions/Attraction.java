@@ -67,4 +67,13 @@ public class Attraction {
     public void setWebSiteUrl(String webSiteUrl) {
         this.webSiteUrl = webSiteUrl;
     }
+
+    @Override public String toString() {
+        return "Attraction{" +
+                "mAddress='" + mAddress + '\'' +
+                ", description='" + description + '\'' +
+                ", webSiteUrl='" + webSiteUrl + '\'' +
+                ", mImageResourceId=" + mImageResourceId +
+                '}';
+    }
 }
