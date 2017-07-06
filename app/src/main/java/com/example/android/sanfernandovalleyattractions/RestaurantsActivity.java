@@ -15,10 +15,10 @@ public class RestaurantsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restaurants);
 
-        final ArrayList<Attraction> restaurants = new ArrayList<Attraction>();
-        restaurants.add(new Attraction("address", "desc", 1, "webSiteUrl"));
-        if (restaurants.get(0) != null) {
-            Log.d(TAG, " toString" + restaurants.get(0).toString());
+        final ArrayList<Attraction> restaurantsList = new ArrayList<Attraction>();
+        restaurantsList.add(new Attraction("address", "desc", 1, "webSiteUrl"));
+        if (restaurantsList.get(0) != null) {
+            Log.d(TAG, " toString: " + restaurantsList.get(0).toString());
         }
     }
 }
