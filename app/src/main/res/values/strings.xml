@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">San Fernando Valley Attractions</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_hiking">Hiking</string>
+    <string name="category_shopping">Shopping</string>
+    <string name="category_drinks">Drinks</string>
+
+</resources>

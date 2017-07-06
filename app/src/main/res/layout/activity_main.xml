@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/app_background"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/restaurants"
+        style="@style/CategoryStyle"
+        android:background="@color/category_restaurants"
+        android:text="@string/category_restaurants"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/hiking"
+        style="@style/CategoryStyle"
+        android:background="@color/category_hiking"
+        android:text="@string/category_hiking"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/shopping"
+        style="@style/CategoryStyle"
+        android:background="@color/category_shopping"
+        android:text="@string/category_shopping"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/drinks"
+        style="@style/CategoryStyle"
+        android:background="@color/category_drinks"
+        android:text="@string/category_drinks"
+        android:layout_weight="1"/>
+
+</LinearLayout>
