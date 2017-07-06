@@ -15,10 +15,17 @@ public class RestaurantsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restaurants);
 
-        final ArrayList<Attraction> restaurantsList = new ArrayList<Attraction>();
-        restaurantsList.add(new Attraction("address", "desc", 1, "webSiteUrl"));
+        final ArrayList<Attraction> restaurantsList = new ArrayList<>();
+        restaurantsList.add(new Attraction("Jasmine Thai Cuisine", "20156 Roscoe Blvd, Winnetka, CA", "Good Thai Food!", "http://www.jasminethaicuisinegroup.com/locations.html", 1));
+        restaurantsList.add(new Attraction("Pronpiya Thai BBQ", "345 W Los Angeles Ave Moorpark, CA", "Quite spicey", "https://www.facebook.com/Pronpiya-Thai-BBQ-148202158543286/", 2));
+        restaurantsList.add(new Attraction("Atlas Mediterranean Kitchen", "1368 Madera Rd Simi Valley, CA", "Good Persian/Iranian place", "http://atlasmediterranean.wix.com/kitchen", 3));
+        restaurantsList.add(new Attraction("Pita Pockets", "9127 Reseda Blvd Northridge, CA", "Middle Eastern", "https://www.facebook.com/Pita-Pockets-128793943860371/", 4));
+        restaurantsList.add(new Attraction("Oi Asian Fusion", "7242 Canoga Ave, Canoga Park, CA", "Filipino adobo bowls", "http://www.oiasianfusion.com/", 5));
+
         if (restaurantsList.get(0) != null) {
-            Log.d(TAG, " toString: " + restaurantsList.get(0).toString());
+            for (Attraction restaurant : restaurantsList) {
+                Log.d(TAG, " toString: " + restaurant.toString());
+            }
         }
     }
 }

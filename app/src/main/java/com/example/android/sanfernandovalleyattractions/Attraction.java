@@ -3,19 +3,23 @@ package com.example.android.sanfernandovalleyattractions;
 public class Attraction {
 
     /**
+     * The name of the given Attraction.
+     */
+    private String mName;
+    /**
      * The address you can associate with the given Attraction to be used on a maps app or on Waze to get there
      */
     private String mAddress;
 
     /**
-     * Overview/description about the given Attraction
+     * Overview/mDescription about the given Attraction
      */
-    private String description;
+    private String mDescription;
 
     /**
      * A URL to visit to get more info about the given Attraction.
      */
-    private String webSiteUrl;
+    private String mWebSiteUrl;
 
     /**
      * The resource ID to locate the image associated with the given Attraction.
@@ -23,17 +27,27 @@ public class Attraction {
      */
     private int mImageResourceId;
 
-    public Attraction(String address, String description, String webSiteUrl) {
-        mAddress = address;
-        this.description = description;
-        this.webSiteUrl = webSiteUrl;
+    public Attraction(String name, String address, String description, String webSiteUrl, int imageResourceId) {
+        this.mName = name;
+        this.mAddress = address;
+        this.mDescription = description;
+        this.mWebSiteUrl = webSiteUrl;
+        mImageResourceId = imageResourceId;
     }
 
-    public Attraction(String address, String description, int imageResourceId, String webSiteUrl) {
+    public Attraction(String name, String address, String description, String webSiteUrl) {
+        this.mName = name;
         this.mAddress = address;
-        this.description = description;
-        this.mImageResourceId = imageResourceId;
-        this.webSiteUrl = webSiteUrl;
+        this.mDescription = description;
+        this.mWebSiteUrl = webSiteUrl;
+    }
+
+    public String getName() {
+        return mName;
+    }
+
+    public void setName(String name) {
+        mName = name;
     }
 
     public String getAddress() {
@@ -45,11 +59,19 @@ public class Attraction {
     }
 
     public String getDescription() {
-        return description;
+        return mDescription;
     }
 
     public void setDescription(String description) {
-        this.description = description;
+        this.mDescription = description;
+    }
+
+    public String getWebSiteUrl() {
+        return mWebSiteUrl;
+    }
+
+    public void setWebSiteUrl(String webSiteUrl) {
+        this.mWebSiteUrl = webSiteUrl;
     }
 
     public int getImageResourceId() {
@@ -60,19 +82,12 @@ public class Attraction {
         mImageResourceId = imageResourceId;
     }
 
-    public String getWebSiteUrl() {
-        return webSiteUrl;
-    }
-
-    public void setWebSiteUrl(String webSiteUrl) {
-        this.webSiteUrl = webSiteUrl;
-    }
-
     @Override public String toString() {
         return "Attraction{" +
-                "mAddress='" + mAddress + '\'' +
-                ", description='" + description + '\'' +
-                ", webSiteUrl='" + webSiteUrl + '\'' +
+                "mName='" + mName + '\'' +
+                ", mAddress='" + mAddress + '\'' +
+                ", mDescription='" + mDescription + '\'' +
+                ", mWebSiteUrl='" + mWebSiteUrl + '\'' +
                 ", mImageResourceId=" + mImageResourceId +
                 '}';
     }
