@@ -45,6 +45,7 @@ public class HikingActivity extends AppCompatActivity {
                 startActivity(myDrinksActivityIntent);
                 return true;
         }
+
         return super.onOptionsItemSelected(item);
     }
 }

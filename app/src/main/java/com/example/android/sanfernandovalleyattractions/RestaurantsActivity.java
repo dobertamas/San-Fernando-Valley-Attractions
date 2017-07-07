@@ -63,7 +63,6 @@ public class RestaurantsActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             // Respond to a click on the " " menu option
             case R.id.action_visit_hiking_list:
-
                 Intent myHikingActivityIntent = new Intent(this, HikingActivity.class);
                 startActivity(myHikingActivityIntent);
                 return true;
@@ -77,6 +76,7 @@ public class RestaurantsActivity extends AppCompatActivity {
                 startActivity(myDrinksActivityIntent);
                 return true;
         }
+
         return super.onOptionsItemSelected(item);
     }
 }
