@@ -29,13 +29,20 @@ public class AttractionAdapter extends ArrayAdapter {
                     R.layout.list_item, parent, false);
         }
 
+        // Get the {@link Attraction} object located at this position in the list
         Attraction currentAttraction = (Attraction) getItem(position);
 
+        // Find the TextView in the list_item.xml layout with the ID name_text_view.
         TextView nameTextView = listItemView.findViewById(R.id.name_text_view);
         assert currentAttraction != null;
+        // Get the name from the currentAttraction object and set this text on the
+        // name TextView.
         nameTextView.setText(currentAttraction.getName());
 
+        // Find the TextView in the list_item.xml layout with the ID description_text_view.
         TextView descriptionTextView = listItemView.findViewById(R.id.description_text_view);
+        // Get the description from the currentAttraction object and set this text on the
+        // description TextView.
         descriptionTextView.setText(currentAttraction.getDescription());
 
         // Return the whole list item layout so that it can be shown in the ListView.
