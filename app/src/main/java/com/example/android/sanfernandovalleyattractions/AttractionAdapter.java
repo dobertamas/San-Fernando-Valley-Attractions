@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -31,6 +32,12 @@ public class AttractionAdapter extends ArrayAdapter {
 
         // Get the {@link Attraction} object located at this position in the list
         Attraction currentAttraction = (Attraction) getItem(position);
+
+        ImageView imageView = listItemView.findViewById(R.id.image_view);
+
+        if (currentAttraction.hasImage()) {
+            imageView.setImageResource(currentAttraction.getImageResourceId());
+        }
 
         // Find the TextView in the list_item.xml layout with the ID name_text_view.
         TextView nameTextView = listItemView.findViewById(R.id.name_text_view);
