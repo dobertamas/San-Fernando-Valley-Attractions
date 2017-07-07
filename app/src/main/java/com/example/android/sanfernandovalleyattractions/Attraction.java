@@ -3,6 +3,10 @@ package com.example.android.sanfernandovalleyattractions;
 public class Attraction {
 
     /**
+     * Constant value that represents no image was provided for this word
+     */
+    private static final int NO_IMAGE_PROVIDED = -1;
+    /**
      * The name of the given Attraction.
      */
     private String mName;
@@ -10,22 +14,32 @@ public class Attraction {
      * The address you can associate with the given Attraction to be used on a maps app or on Waze to get there
      */
     private String mAddress;
-
+    /**
+     * The location with all the details as an object.
+     */
+    private Location mLocation;
     /**
      * Overview/mDescription about the given Attraction
      */
     private String mDescription;
-
     /**
      * A URL to visit to get more info about the given Attraction.
      */
     private String mWebSiteUrl;
-
     /**
      * The resource ID to locate the image associated with the given Attraction.
      * The resource ID can be null.
      */
     private int mImageResourceId;
+
+    public Attraction(String name, String address, Location location, String description, String webSiteUrl, int imageResourceId) {
+        this.mName = name;
+        this.mAddress = address;
+        this.mLocation = location;
+        this.mDescription = description;
+        this.mWebSiteUrl = webSiteUrl;
+        this.mImageResourceId = imageResourceId;
+    }
 
     public Attraction(String name, String address, String description, String webSiteUrl, int imageResourceId) {
         this.mName = name;
@@ -58,6 +72,14 @@ public class Attraction {
         mAddress = address;
     }
 
+    public Location getLocation() {
+        return mLocation;
+    }
+
+    public void setLocation(Location location) {
+        mLocation = location;
+    }
+
     public String getDescription() {
         return mDescription;
     }
@@ -83,17 +105,19 @@ public class Attraction {
     }
 
     @Override public String toString() {
-        return "Attraction{" +
-                "mName='" + mName + '\'' +
-                ", mAddress='" + mAddress + '\'' +
-                ", mDescription='" + mDescription + '\'' +
-                ", mWebSiteUrl='" + mWebSiteUrl + '\'' +
-                ", mImageResourceId=" + mImageResourceId +
-                '}';
-    }
 
-    /** Constant value that represents no image was provided for this word */
-    private static final int NO_IMAGE_PROVIDED = -1;
+        if (mName != null && mAddress != null && mLocation != null && mDescription != null && mWebSiteUrl != null) {
+            return "Attraction{" +
+                    "mName='" + mName + '\'' +
+                    ", mAddress='" + mAddress + '\'' +
+                    ", mLocation=" + mLocation.toString() +
+                    ", mDescription='" + mDescription + '\'' +
+                    ", mWebSiteUrl='" + mWebSiteUrl + '\'' +
+                    ", mImageResourceId=" + mImageResourceId +
+                    '}';
+        }
+        else return "";
+    }
 
     /**
      * Returns whether or not there is an image for this word.
