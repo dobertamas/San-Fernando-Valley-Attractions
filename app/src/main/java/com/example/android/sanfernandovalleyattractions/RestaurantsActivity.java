@@ -3,6 +3,7 @@ package com.example.android.sanfernandovalleyattractions;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ListView;
 
 import java.util.ArrayList;
 
@@ -13,7 +14,7 @@ public class RestaurantsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_restaurants);
+        setContentView(R.layout.attraction_list);
 
         final ArrayList<Attraction> restaurantsList = new ArrayList<>();
         restaurantsList.add(new Attraction("Jasmine Thai Cuisine", "20156 Roscoe Blvd, Winnetka, CA", "Good Thai Food!", "http://www.jasminethaicuisinegroup.com/locations.html", 1));
@@ -27,5 +28,13 @@ public class RestaurantsActivity extends AppCompatActivity {
                 Log.d(TAG, " toString: " + restaurant.toString());
             }
         }
+
+        AttractionAdapter attractionAdapter = new AttractionAdapter(this, restaurantsList);
+
+        ListView listView = (ListView) findViewById(R.id.list);
+
+        listView.setAdapter(attractionAdapter);
+
+
     }
 }
