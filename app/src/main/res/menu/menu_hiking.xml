@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".CatalogActivity">
+
+    <item
+        android:id="@+id/action_visit_restaurants_list"
+        android:title="@string/category_restaurants"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_visit_shopping_list"
+        android:title="@string/category_shopping"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_visit_drinks_list"
+        android:title="@string/category_drinks"
+        app:showAsAction="never"/>
+
+</menu>
