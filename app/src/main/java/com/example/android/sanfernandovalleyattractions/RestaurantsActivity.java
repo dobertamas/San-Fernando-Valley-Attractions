@@ -25,7 +25,7 @@ public class RestaurantsActivity extends AppCompatActivity {
         restaurantsList.add(new Attraction("Atlas Kitchen", "1368 Madera Rd Simi Valley, CA", new Location("1368", "Madera Rd", "Simi Valley", "CA", "93065"), "Good Persian/Iranian", "http://atlasmediterranean.wix.com/kitchen",R.drawable.atlas));
         restaurantsList.add(new Attraction("Pita Pockets", "9127 Reseda Blvd Northridge, CA", new Location("9127", "Reseda Blvd", "Northridge", "CA", "91324"), "Middle Eastern", "https://www.facebook.com/Pita-Pockets-128793943860371/", R.drawable.pitapockets));
         restaurantsList.add(new Attraction("Oi Asian Fusion", "7242 Canoga Ave, Canoga Park, CA", new Location("7242", "Canoga Ave", "Canoga Park", "CA", "91303"), "Filipino adobo bowls", "http://www.oiasianfusion.com/", R.drawable.oi));
-        restaurantsList.add(new Attraction("Greek House Cafe", "2375 Sycamore Dr Simi Valley, CA", new Location("2375", "Sycamore Dr", "Simi Valley", "CA", "93065"), "Greek food", "https://greekhousecafe.com", R.drawable.atlas_greek));
+        restaurantsList.add(new Attraction("Greek House Cafe", "2375 Sycamore Dr Simi Valley, CA", new Location("2375", "Sycamore Dr", "Simi Valley", "CA", "93065"), "Greek food", "https://greekhousecafe.com", R.drawable.greek_house));
 
         if (restaurantsList.get(0) != null) {
             for (Attraction restaurant : restaurantsList) {
