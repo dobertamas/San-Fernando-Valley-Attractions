@@ -5,6 +5,7 @@
     <string name="category_hiking">Hiking</string>
     <string name="category_shopping">Shopping</string>
     <string name="category_drinks">Drinks</string>
+    <string name="main_page">Overview</string>
 
     <string-array name="nav_item_activity_titles">
         <item>Restaurants</item>

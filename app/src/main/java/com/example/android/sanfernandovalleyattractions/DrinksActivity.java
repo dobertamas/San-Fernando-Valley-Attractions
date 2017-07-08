@@ -61,6 +61,10 @@ public class DrinksActivity extends AppCompatActivity {
                 Intent myShoppingActivityIntent = new Intent(this, ShoppingActivity.class);
                 startActivity(myShoppingActivityIntent);
                 return true;
+            case R.id.action_visit_main_page:
+                Intent myMainPageActivityIntent = new Intent(this, MainActivity.class);
+                startActivity(myMainPageActivityIntent);
+                return true;
         }
 
         return super.onOptionsItemSelected(item);

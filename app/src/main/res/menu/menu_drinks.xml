@@ -18,4 +18,9 @@
         android:title="@string/category_shopping"
         app:showAsAction="never"/>
 
+    <item
+        android:id="@+id/action_visit_main_page"
+        android:title="@string/main_page"
+        app:showAsAction="never"/>
+
 </menu>
