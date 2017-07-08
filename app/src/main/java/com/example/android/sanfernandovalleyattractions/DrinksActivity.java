@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 public class DrinksActivity extends AppCompatActivity {
 
@@ -14,7 +17,23 @@ public class DrinksActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_drinks);
+        setContentView(R.layout.attraction_list);
+
+        final ArrayList<Attraction> drinksList = new ArrayList<>();
+        drinksList.add(new Attraction("Santa Susana Pass State Historic Park", "9853 Andora Ave, Chatsworth, CA", new Location("9853", "Andora Ave", "Chatsworth", "CA", "91311"), "Good Thai Food", "http://fpssm.org/history.php",-1));
+
+        // Create an {@link AttractionAdapter}, whose data source is a list of {@link Attraction}s.
+        // The adapter knows how to create list items for each item in the list.
+        AttractionAdapter drinksAdapter = new AttractionAdapter(this, drinksList);
+
+        // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
+        // There should be a {@link ListView} with the view ID called list, which is declared in the
+        // attraction_list.xml layout file.
+        ListView listView = (ListView) findViewById(R.id.list);
+
+        // Make the {@link ListView} use the {@link AttractionAdapter} we created above, so that
+        // the {@link ListView} will display list items for each {@link Attraction} in the list.
+        listView.setAdapter(drinksAdapter);
     }
 
     @Override

@@ -20,5 +20,33 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(restaurantIntent);
             }
         });
+
+        View hiking = findViewById(R.id.hiking);
+
+        hiking.setOnClickListener(new View.OnClickListener() {
+            @Override public void onClick(View view) {
+                Intent hikingIntent = new Intent(MainActivity.this, HikingActivity.class);
+                startActivity(hikingIntent);
+            }
+        });
+
+        View shopping = findViewById(R.id.shopping);
+
+        shopping.setOnClickListener(new View.OnClickListener() {
+            @Override public void onClick(View view) {
+                Intent shoppingIntent = new Intent(MainActivity.this, ShoppingActivity.class);
+                startActivity(shoppingIntent);
+            }
+        });
+
+        View drinks = findViewById(R.id.drinks);
+
+        drinks.setOnClickListener(new View.OnClickListener() {
+            @Override public void onClick(View view) {
+                Intent drinksIntent = new Intent(MainActivity.this, DrinksActivity.class);
+                startActivity(drinksIntent);
+            }
+        });
+
     }
 }
