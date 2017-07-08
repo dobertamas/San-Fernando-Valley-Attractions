@@ -38,6 +38,9 @@ public class AttractionAdapter extends ArrayAdapter {
         if (currentAttraction.hasImage()) {
             imageView.setImageResource(currentAttraction.getImageResourceId());
         }
+        else {
+            imageView.setVisibility(View.GONE);
+        }
 
         // Find the TextView in the list_item.xml layout with the ID name_text_view.
         TextView nameTextView = (TextView) listItemView.findViewById(R.id.name_text_view);
@@ -47,7 +50,7 @@ public class AttractionAdapter extends ArrayAdapter {
         nameTextView.setText(currentAttraction.getName());
 
         // Find the TextView in the list_item.xml layout with the ID description_text_view.
-        TextView descriptionTextView =  (TextView) listItemView.findViewById(R.id.description_text_view);
+        TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.description_text_view);
         // Get the description from the currentAttraction object and set this text on the
         // description TextView.
         descriptionTextView.setText(currentAttraction.getDescription());

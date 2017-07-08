@@ -20,7 +20,12 @@ public class DrinksActivity extends AppCompatActivity {
         setContentView(R.layout.attraction_list);
 
         final ArrayList<Attraction> drinksList = new ArrayList<>();
-        drinksList.add(new Attraction("Santa Susana Pass State Historic Park", "9853 Andora Ave, Chatsworth, CA", new Location("9853", "Andora Ave", "Chatsworth", "CA", "91311"), "Good Thai Food", "http://fpssm.org/history.php",-1));
+        drinksList.add(new Attraction("Total Wine & More store", "19336 Nordhoff St, Northridge, CA 91324", new Location("19336", "Nordhoff St", "Northridge", "CA", "91324"), "Shop wines, spirits and beers at the best prices", "http://www.totalwine.com",-1));
+        drinksList.add(new Attraction("BevMo! store ", "405 Cochran St, Simi Valley, CA 93065", new Location("405", "Cochran St", "Simi Valley", "CA", "93065"), "Liquor store chain offering big selection", "http://www.bevmo.com",-1));
+        drinksList.add(new Attraction("Enegren Brewing Company", " 444 Zachary St #120, Moorpark, CA 93021", new Location("444", "Zachary St", "Moorpark", "CA", "93021"), "Variety of beers in an unassuming tasting room", "http://www.enegrenbrewing.com",-1));
+        drinksList.add(new Attraction("MacLeod Ale Brewing Co", "14741 Calvert St, Van Nuys, CA 91411", new Location("14741", "Calvert St", "Van Nuys", "CA", "91411"), "Microbrewery making traditional cask- conditioned British ale.", "http://www.macleodale.com",-1));
+        drinksList.add(new Attraction("Stone Company Store", "220 S Raymond Ave #103, Pasadena, CA 91105", new Location("220", "S Raymond Ave", "Pasadena", "CA", "91105"), "Tasting room and retail store with patio space ", "http://www.stonebrewing.com",-1));
+        drinksList.add(new Attraction("Golden Road Brewing", "5410 W San Fernando Rd, Los Angeles, CA 90039", new Location("5410", "W San Fernando Rd", "Los Angeles", "CA", "90039"), "Globally inspired pub food paired with house beers", "http://goldenroad.la",-1));
 
         // Create an {@link AttractionAdapter}, whose data source is a list of {@link Attraction}s.
         // The adapter knows how to create list items for each item in the list.
