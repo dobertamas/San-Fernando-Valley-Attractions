@@ -7,6 +7,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import java.util.ArrayList;
+
 public class HikingActivity extends AppCompatActivity {
 
     public static final String TAG = HikingActivity.class.getSimpleName();
@@ -15,6 +17,10 @@ public class HikingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hiking);
+
+        final ArrayList<Attraction> hikingList = new ArrayList<>();
+        hikingList.add(new Attraction("Santa Susana Pass State Historic Park", "9853 Andora Ave, Chatsworth, CA", new Location("9853", "Andora Ave", "Chatsworth", "CA", "91311"), "Good Thai Food", "http://fpssm.org/history.php",R.drawable.santasusanna));
+
     }
 
     @Override
