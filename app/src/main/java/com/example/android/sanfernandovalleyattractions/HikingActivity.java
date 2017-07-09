@@ -20,13 +20,43 @@ public class HikingActivity extends AppCompatActivity {
         setContentView(R.layout.attraction_list);
 
         final ArrayList<Attraction> hikingList = new ArrayList<>();
-  /*      hikingList.add(new Attraction("Santa Susana Pass State Historic Park", "9853 Andora Ave, Chatsworth, CA", new Location("9853", "Andora Ave", "Chatsworth", "CA", "91311"), "Historic Stagecoach Trail", "http://fpssm.org/history.php",-1));
-        hikingList.add(new Attraction("Limekiln Canyon Park", "19585 Rinaldi Street, Porter Ranch, CA 91326 CA", new Location("19585", "Rinaldi Street", "Porter Ranch", "CA", "91326"), "Short trail way below the street", "https://www.yelp.com/biz/limekiln-canyon-trail-los-angeles",-1));
-        hikingList.add(new Attraction("Palisades Park", "Porter Ranch, CA", new Location("", "", "Porter Ranch", "CA", "91326"), "1.6 mile multi-use trail", "https://www.yelp.com/biz/palisades-park-los-angeles",-1));
-        hikingList.add(new Attraction("Aliso Canyon Park", "18041 Rinaldi St Porter Ranch, CA, 91326", new Location("18041", "Rinaldi St", "Porter Ranch", "CA", "91326"), "A simple easy to moderate walking jogging running trail", "https://www.yelp.com/biz/aliso-canyon-park-porter-ranch",-1));
-        hikingList.add(new Attraction("O'Melveny Park", "17300 Sesnon Blvd, Granada Hills, CA 91344", new Location("17300", "Sesnon Blvd", "Granada Hills", "CA", "91344"), "Good workout that was mostly incline but was gradual", "https://www.alltrails.com/trail/us/california/omelveny-bee-canyon-trail",-1));
-        hikingList.add(new Attraction("Stoney Point Park", "On Topanga Canyon Blvd, between Chatsworth St & 118 Freeway, Chatsworth, CA 91311", new Location("", "Topanga Canyon Blvd", "Chatsworth", "CA", "91311"), "Rocky outcroppings plus caves", "https://www.yelp.com/biz/stoney-point-chatsworth-2",-1));
-*/
+
+        hikingList.add(new Attraction(getString(R.string.hiking_one_name),
+                new Location(getString(R.string.hiking_one_location_primaryAddressNumber),
+                        getString(R.string.hiking_one_location_streetNameWithSuffix), getString(R.string.hiking_one_location_cityName),
+                        getString(R.string.hiking_one_location_UsState), getString(R.string.hiking_one_location_UsZipCode)),
+                getString(R.string.hiking_one_description), getString(R.string.hiking_one_description), -1));
+
+        hikingList.add(new Attraction(getString(R.string.hiking_two_name),
+                new Location(getString(R.string.hiking_two_location_primaryAddressNumber),
+                        getString(R.string.hiking_two_location_streetNameWithSuffix), getString(R.string.hiking_two_location_cityName),
+                        getString(R.string.hiking_two_location_UsState), getString(R.string.hiking_two_location_UsZipCode)),
+                getString(R.string.hiking_two_description), getString(R.string.hiking_two_description), -1));
+
+        hikingList.add(new Attraction(getString(R.string.hiking_three_name),
+                new Location(getString(R.string.hiking_three_location_primaryAddressNumber),
+                        getString(R.string.hiking_three_location_streetNameWithSuffix), getString(R.string.hiking_three_location_cityName),
+                        getString(R.string.hiking_three_location_UsState), getString(R.string.hiking_three_location_UsZipCode)),
+                getString(R.string.hiking_three_description), getString(R.string.hiking_three_description), -1));
+
+        hikingList.add(new Attraction(getString(R.string.hiking_four_name),
+                new Location(getString(R.string.hiking_four_location_primaryAddressNumber),
+                        getString(R.string.hiking_four_location_streetNameWithSuffix), getString(R.string.hiking_four_location_cityName),
+                        getString(R.string.hiking_four_location_UsState), getString(R.string.hiking_four_location_UsZipCode)),
+                getString(R.string.hiking_four_description), getString(R.string.hiking_four_description), -1));
+
+        hikingList.add(new Attraction(getString(R.string.hiking_five_name),
+                new Location(getString(R.string.hiking_five_location_primaryAddressNumber),
+                        getString(R.string.hiking_five_location_streetNameWithSuffix), getString(R.string.hiking_five_location_cityName),
+                        getString(R.string.hiking_five_location_UsState), getString(R.string.hiking_five_location_UsZipCode)),
+                getString(R.string.hiking_five_description), getString(R.string.hiking_five_description), -1));
+
+        hikingList.add(new Attraction(getString(R.string.hiking_six_name),
+                new Location(getString(R.string.hiking_six_location_primaryAddressNumber),
+                        getString(R.string.hiking_six_location_streetNameWithSuffix), getString(R.string.hiking_six_location_cityName),
+                        getString(R.string.hiking_six_location_UsState), getString(R.string.hiking_six_location_UsZipCode)),
+                getString(R.string.hiking_six_description), getString(R.string.hiking_six_description), -1));
+
         // Create an {@link AttractionAdapter}, whose data source is a list of {@link Attraction}s.
         // The adapter knows how to create list items for each item in the list.
         AttractionAdapter hikingAdapter = new AttractionAdapter(this, hikingList);

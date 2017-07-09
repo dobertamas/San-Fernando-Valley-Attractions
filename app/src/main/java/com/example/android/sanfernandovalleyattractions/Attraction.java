@@ -1,6 +1,6 @@
 package com.example.android.sanfernandovalleyattractions;
 
-public class Attraction {
+class Attraction {
 
     /**
      * Constant value that represents no image was provided for this word
@@ -36,39 +36,15 @@ public class Attraction {
         mName = name;
     }
 
-    public Location getLocation() {
-        return mLocation;
-    }
-
-    public void setLocation(Location location) {
-        mLocation = location;
-    }
-
-    public String getDescription() {
+    String getDescription() {
         return mDescription;
     }
 
-    public void setDescription(String description) {
-        mDescription = description;
-    }
-
-    public String getWebSiteUrl() {
-        return mWebSiteUrl;
-    }
-
-    public void setWebSiteUrl(String webSiteUrl) {
-        mWebSiteUrl = webSiteUrl;
-    }
-
-    public int getImageResourceId() {
+    int getImageResourceId() {
         return mImageResourceId;
     }
 
-    public void setImageResourceId(int imageResourceId) {
-        mImageResourceId = imageResourceId;
-    }
-
-    public Attraction(String name, Location location, String description, String webSiteUrl, int imageResourceId) {
+    Attraction(String name, Location location, String description, String webSiteUrl, int imageResourceId) {
         mName = name;
         mLocation = location;
         mDescription = description;
@@ -93,7 +69,7 @@ public class Attraction {
     /**
      * Returns whether or not there is an image for this word.
      */
-    public boolean hasImage() {
+    boolean hasImage() {
         return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 }

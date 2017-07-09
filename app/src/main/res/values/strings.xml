@@ -24,54 +24,115 @@
     <string name="restaurants_one_webSiteUrl">http://www.jasminethaicuisinegroup.com/locations.html</string>
     <string name="restaurants_one_imageResourceId">R.drawable.jasmine</string>
 
-    <string name="restaurants_two_name">Jasmine Thai Cuisine</string>
-    <string name="restaurants_two_location_primaryAddressNumber">20156</string>
-    <string name="restaurants_two_location_streetNameWithSuffix">Roscoe Blvd</string>
-    <string name="restaurants_two_location_cityName">Winnetka</string>
+    <string name="restaurants_two_name">Pronpiya Thai BBQ</string>
+    <string name="restaurants_two_location_primaryAddressNumber">345</string>
+    <string name="restaurants_two_location_streetNameWithSuffix">W Los Angeles Ave</string>
+    <string name="restaurants_two_location_cityName">Moorpark</string>
     <string name="restaurants_two_location_UsState">CA</string>
-    <string name="restaurants_two_location_UsZipCode">91306</string>
-    <string name="restaurants_two_description">Good Thai Food</string>
-    <string name="restaurants_two_webSiteUrl">http://www.jasminethaicuisinegroup.com/locations.html</string>
-    <string name="restaurants_two_imageResourceId">R.drawable.jasmine</string>
+    <string name="restaurants_two_location_UsZipCode">93021</string>
+    <string name="restaurants_two_description">Quite spicy Thai Food</string>
+    <string name="restaurants_two_webSiteUrl">https://www.facebook.com/Pronpiya-Thai-BBQ-148202158543286/</string>
+    <string name="restaurants_two_imageResourceId">R.drawable.pronpiya</string>
 
-    <string name="restaurants_three_name">Jasmine Thai Cuisine</string>
-    <string name="restaurants_three_location_primaryAddressNumber">20156</string>
-    <string name="restaurants_three_location_streetNameWithSuffix">Roscoe Blvd</string>
-    <string name="restaurants_three_location_cityName">Winnetka</string>
+    <string name="restaurants_three_name">Atlas Kitchen</string>
+    <string name="restaurants_three_location_primaryAddressNumber">1368</string>
+    <string name="restaurants_three_location_streetNameWithSuffix">Madera Rd</string>
+    <string name="restaurants_three_location_cityName">Simi Valley</string>
     <string name="restaurants_three_location_UsState">CA</string>
-    <string name="restaurants_three_location_UsZipCode">91306</string>
-    <string name="restaurants_three_description">Good Thai Food</string>
-    <string name="restaurants_three_webSiteUrl">http://www.jasminethaicuisinegroup.com/locations.html</string>
-    <string name="restaurants_three_imageResourceId">R.drawable.jasmine</string>
+    <string name="restaurants_three_location_UsZipCode">93065</string>
+    <string name="restaurants_three_description">Good Persian/Iranian place</string>
+    <string name="restaurants_three_webSiteUrl">http://atlasmediterranean.wix.com/kitchen</string>
+    <string name="restaurants_three_imageResourceId">R.drawable.atlas</string>
 
-    <string name="restaurants_four_name">Jasmine Thai Cuisine</string>
-    <string name="restaurants_four_location_primaryAddressNumber">20156</string>
-    <string name="restaurants_four_location_streetNameWithSuffix">Roscoe Blvd</string>
-    <string name="restaurants_four_location_cityName">Winnetka</string>
+    <string name="restaurants_four_name">Pita Pockets</string>
+    <string name="restaurants_four_location_primaryAddressNumber">9127</string>
+    <string name="restaurants_four_location_streetNameWithSuffix">Reseda Blvd</string>
+    <string name="restaurants_four_location_cityName">Northridge</string>
     <string name="restaurants_four_location_UsState">CA</string>
-    <string name="restaurants_four_location_UsZipCode">91306</string>
-    <string name="restaurants_four_description">Good Thai Food</string>
-    <string name="restaurants_four_webSiteUrl">http://www.jasminethaicuisinegroup.com/locations.html</string>
-    <string name="restaurants_four_imageResourceId">R.drawable.jasmine</string>
+    <string name="restaurants_four_location_UsZipCode">91324</string>
+    <string name="restaurants_four_description">Middle Eastern</string>
+    <string name="restaurants_four_webSiteUrl">https://www.facebook.com/Pita-Pockets-128793943860371/</string>
+    <string name="restaurants_four_imageResourceId">R.drawable.pitapockets</string>
 
-    <string name="restaurants_five_name">Jasmine Thai Cuisine</string>
-    <string name="restaurants_five_location_primaryAddressNumber">20156</string>
-    <string name="restaurants_five_location_streetNameWithSuffix">Roscoe Blvd</string>
-    <string name="restaurants_five_location_cityName">Winnetka</string>
+    <string name="restaurants_five_name">Oi Asian Fusion</string>
+    <string name="restaurants_five_location_primaryAddressNumber">7242</string>
+    <string name="restaurants_five_location_streetNameWithSuffix">Canoga Ave</string>
+    <string name="restaurants_five_location_cityName">Canoga Park</string>
     <string name="restaurants_five_location_UsState">CA</string>
-    <string name="restaurants_five_location_UsZipCode">91306</string>
-    <string name="restaurants_five_description">Good Thai Food</string>
-    <string name="restaurants_five_webSiteUrl">http://www.jasminethaicuisinegroup.com/locations.html</string>
-    <string name="restaurants_five_imageResourceId">R.drawable.jasmine</string>
+    <string name="restaurants_five_location_UsZipCode">91303</string>
+    <string name="restaurants_five_description">Filipino adobo bowls</string>
+    <string name="restaurants_five_webSiteUrl">http://www.oiasianfusion.com/</string>
+    <string name="restaurants_five_imageResourceId">R.drawable.oi</string>
 
-    <string name="restaurants_six_name">Jasmine Thai Cuisine</string>
-    <string name="restaurants_six_location_primaryAddressNumber">20156</string>
-    <string name="restaurants_six_location_streetNameWithSuffix">Roscoe Blvd</string>
-    <string name="restaurants_six_location_cityName">Winnetka</string>
+    <string name="restaurants_six_name">Greek House Cafe</string>
+    <string name="restaurants_six_location_primaryAddressNumber">2375</string>
+    <string name="restaurants_six_location_streetNameWithSuffix">Sycamore Dr</string>
+    <string name="restaurants_six_location_cityName">Simi Valley</string>
     <string name="restaurants_six_location_UsState">CA</string>
-    <string name="restaurants_six_location_UsZipCode">91306</string>
-    <string name="restaurants_six_description">Good Thai Food</string>
-    <string name="restaurants_six_webSiteUrl">http://www.jasminethaicuisinegroup.com/locations.html</string>
-    <string name="restaurants_six_imageResourceId">R.drawable.jasmine</string>
+    <string name="restaurants_six_location_UsZipCode">93065</string>
+    <string name="restaurants_six_description">Greek food</string>
+    <string name="restaurants_six_webSiteUrl">https://greekhousecafe.com</string>
+    <string name="restaurants_six_imageResourceId">R.drawable.greek_house</string>
+
+    <string name="hiking_one_name">Santa Susana Pass State Historic Park</string>
+    <string name="hiking_one_location_primaryAddressNumber">9853</string>
+    <string name="hiking_one_location_streetNameWithSuffix">Andora Ave</string>
+    <string name="hiking_one_location_cityName">Chatsworth</string>
+    <string name="hiking_one_location_UsState">CA</string>
+    <string name="hiking_one_location_UsZipCode">91311</string>
+    <string name="hiking_one_description">Historic Stagecoach Trail</string>
+    <string name="hiking_one_webSiteUrl">http://fpssm.org/history.php</string>
+    <string name="hiking_one_imageResourceId">-1</string>
+
+
+    <string name="hiking_two_name">Limekiln Canyon Park</string>
+    <string name="hiking_two_location_primaryAddressNumber">19585</string>
+    <string name="hiking_two_location_streetNameWithSuffix">Rinaldi Street</string>
+    <string name="hiking_two_location_cityName">Porter Ranch</string>
+    <string name="hiking_two_location_UsState">CA</string>
+    <string name="hiking_two_location_UsZipCode">91326</string>
+    <string name="hiking_two_description">Short trail way below the street</string>
+    <string name="hiking_two_webSiteUrl">https://www.yelp.com/biz/limekiln-canyon-trail-los-angeles</string>
+    <string name="hiking_two_imageResourceId">-1</string>
+
+    <string name="hiking_three_name">Palisades Park</string>
+    <string name="hiking_three_location_primaryAddressNumber"> </string>
+    <string name="hiking_three_location_streetNameWithSuffix"> </string>
+    <string name="hiking_three_location_cityName">Porter Ranch</string>
+    <string name="hiking_three_location_UsState">CA</string>
+    <string name="hiking_three_location_UsZipCode">91326</string>
+    <string name="hiking_three_description">1.6 mile multi-use trail</string>
+    <string name="hiking_three_webSiteUrl">https://www.yelp.com/biz/palisades-park-los-angeles</string>
+    <string name="hiking_three_imageResourceId">-1</string>
+
+    <string name="hiking_four_name">Aliso Canyon Park</string>
+    <string name="hiking_four_location_primaryAddressNumber">18041</string>
+    <string name="hiking_four_location_streetNameWithSuffix">Rinaldi St</string>
+    <string name="hiking_four_location_cityName">Porter Ranch</string>
+    <string name="hiking_four_location_UsState">CA</string>
+    <string name="hiking_four_location_UsZipCode">91326</string>
+    <string name="hiking_four_description">A simple easy to moderate walking jogging running trail</string>
+    <string name="hiking_four_webSiteUrl">https://www.yelp.com/biz/aliso-canyon-park-porter-ranch</string>
+    <string name="hiking_four_imageResourceId">-1</string>
+
+    <string name="hiking_five_name">O\'Melveny Park</string>
+    <string name="hiking_five_location_primaryAddressNumber">17300</string>
+    <string name="hiking_five_location_streetNameWithSuffix">Sesnon Blvd</string>
+    <string name="hiking_five_location_cityName">Granada Hills</string>
+    <string name="hiking_five_location_UsState">CA</string>
+    <string name="hiking_five_location_UsZipCode">91344</string>
+    <string name="hiking_five_description">Good workout that was mostly incline but was gradual</string>
+    <string name="hiking_five_webSiteUrl">https://www.alltrails.com/trail/us/california/omelveny-bee-canyon-trail</string>
+    <string name="hiking_five_imageResourceId">-1</string>
+
+    <string name="hiking_six_name">Stoney Point Park</string>
+    <string name="hiking_six_location_primaryAddressNumber"> </string>
+    <string name="hiking_six_location_streetNameWithSuffix">Topanga Canyon Blvd</string>
+    <string name="hiking_six_location_cityName">Chatsworth</string>
+    <string name="hiking_six_location_UsState">CA</string>
+    <string name="hiking_six_location_UsZipCode">91311</string>
+    <string name="hiking_six_description">Rocky outcroppings plus caves</string>
+    <string name="hiking_six_webSiteUrl">https://www.yelp.com/biz/stoney-point-chatsworth-2</string>
+    <string name="hiking_six_imageResourceId">-1</string>
 
 </resources>

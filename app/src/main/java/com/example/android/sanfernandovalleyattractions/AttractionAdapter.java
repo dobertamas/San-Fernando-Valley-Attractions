@@ -12,11 +12,11 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class AttractionAdapter extends ArrayAdapter {
+class AttractionAdapter extends ArrayAdapter {
 
     private static final String TAG = AttractionAdapter.class.getSimpleName();
 
-    public AttractionAdapter(@NonNull Context context, @NonNull ArrayList<Attraction> attractions) {
+    AttractionAdapter(@NonNull Context context, @NonNull ArrayList<Attraction> attractions) {
         super(context, 0, attractions);
         Log.d(TAG, " inside constructor -  attractions size " + attractions.size());
     }
@@ -35,6 +35,7 @@ public class AttractionAdapter extends ArrayAdapter {
 
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image_view);
 
+        assert currentAttraction != null;
         if (currentAttraction.hasImage()) {
             imageView.setImageResource(currentAttraction.getImageResourceId());
         }
@@ -44,7 +45,6 @@ public class AttractionAdapter extends ArrayAdapter {
 
         // Find the TextView in the list_item.xml layout with the ID name_text_view.
         TextView nameTextView = (TextView) listItemView.findViewById(R.id.name_text_view);
-        assert currentAttraction != null;
         // Get the name from the currentAttraction object and set this text on the
         // name TextView.
         nameTextView.setText(currentAttraction.getName());
