@@ -5,7 +5,7 @@ public class Location {
     public static final String TAG = Location.class.getSimpleName();
 
     private String primaryAddressNumber;
-    private String  streetNameWithSuffix;
+    private String streetNameWithSuffix;
     private String cityName;
     private String UsState;
     private String UsZipCode;

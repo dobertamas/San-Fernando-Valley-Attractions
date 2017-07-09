@@ -14,18 +14,61 @@ public class RestaurantsActivity extends AppCompatActivity {
 
     public static final String TAG = RestaurantsActivity.class.getSimpleName();
 
+    int restaurants_one_imageResourceId = R.drawable.jasmine;
+    int restaurants_two_imageResourceId = R.drawable.pronpiya;
+    int restaurants_three_imageResourceId = R.drawable.atlas;
+    int restaurants_four_imageResourceId = R.drawable.pitapockets;
+    int restaurants_five_imageResourceId = R.drawable.oi;
+    int restaurants_six_imageResourceId = R.drawable.greek_house;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.attraction_list);
 
         final ArrayList<Attraction> restaurantsList = new ArrayList<>();
-        restaurantsList.add(new Attraction("Jasmine Thai Cuisine", "20156 Roscoe Blvd, Winnetka, CA", new Location("20156", "Roscoe Blvd", "Winnetka", "CA", "91306"), "Good Thai Food", "http://www.jasminethaicuisinegroup.com/locations.html", R.drawable.jasmine));
+    /*    restaurantsList.add(new Attraction("Jasmine Thai Cuisine", "20156 Roscoe Blvd, Winnetka, CA", new Location("20156", "Roscoe Blvd", "Winnetka", "CA", "91306"), "Good Thai Food", "http://www.jasminethaicuisinegroup.com/locations.html", R.drawable.jasmine));
         restaurantsList.add(new Attraction("Pronpiya Thai BBQ", "345 W Los Angeles Ave Moorpark, CA", new Location("345", "W Los Angeles Ave", "Moorpark", "CA", "93021"), "Quite spicey", "https://www.facebook.com/Pronpiya-Thai-BBQ-148202158543286/", R.drawable.pronpiya));
-        restaurantsList.add(new Attraction("Atlas Kitchen", "1368 Madera Rd Simi Valley, CA", new Location("1368", "Madera Rd", "Simi Valley", "CA", "93065"), "Good Persian/Iranian", "http://atlasmediterranean.wix.com/kitchen",R.drawable.atlas));
+        restaurantsList.add(new Attraction("Atlas Kitchen", "1368 Madera Rd Simi Valley, CA", new Location("1368", "Madera Rd", "Simi Valley", "CA", "93065"), "Good Persian/Iranian", "http://atlasmediterranean.wix.com/kitchen", R.drawable.atlas));
         restaurantsList.add(new Attraction("Pita Pockets", "9127 Reseda Blvd Northridge, CA", new Location("9127", "Reseda Blvd", "Northridge", "CA", "91324"), "Middle Eastern", "https://www.facebook.com/Pita-Pockets-128793943860371/", R.drawable.pitapockets));
         restaurantsList.add(new Attraction("Oi Asian Fusion", "7242 Canoga Ave, Canoga Park, CA", new Location("7242", "Canoga Ave", "Canoga Park", "CA", "91303"), "Filipino adobo bowls", "http://www.oiasianfusion.com/", R.drawable.oi));
         restaurantsList.add(new Attraction("Greek House Cafe", "2375 Sycamore Dr Simi Valley, CA", new Location("2375", "Sycamore Dr", "Simi Valley", "CA", "93065"), "Greek food", "https://greekhousecafe.com", R.drawable.greek_house));
+     */
+        restaurantsList.add(new Attraction(getString(R.string.restaurants_one_name),
+                new Location(getString(R.string.restaurants_one_location_primaryAddressNumber),
+                        getString(R.string.restaurants_one_location_streetNameWithSuffix), getString(R.string.restaurants_one_location_cityName),
+                        getString(R.string.restaurants_one_location_UsState), getString(R.string.restaurants_one_location_UsZipCode)),
+                getString(R.string.restaurants_one_description), getString(R.string.restaurants_one_description), restaurants_one_imageResourceId));
+
+        restaurantsList.add(new Attraction(getString(R.string.restaurants_two_name),
+                new Location(getString(R.string.restaurants_two_location_primaryAddressNumber),
+                        getString(R.string.restaurants_two_location_streetNameWithSuffix), getString(R.string.restaurants_two_location_cityName),
+                        getString(R.string.restaurants_two_location_UsState), getString(R.string.restaurants_two_location_UsZipCode)),
+                getString(R.string.restaurants_two_description), getString(R.string.restaurants_two_description), restaurants_two_imageResourceId));
+
+        restaurantsList.add(new Attraction(getString(R.string.restaurants_three_name),
+                new Location(getString(R.string.restaurants_three_location_primaryAddressNumber),
+                        getString(R.string.restaurants_three_location_streetNameWithSuffix), getString(R.string.restaurants_three_location_cityName),
+                        getString(R.string.restaurants_three_location_UsState), getString(R.string.restaurants_three_location_UsZipCode)),
+                getString(R.string.restaurants_three_description), getString(R.string.restaurants_three_description), restaurants_three_imageResourceId));
+
+        restaurantsList.add(new Attraction(getString(R.string.restaurants_four_name),
+                new Location(getString(R.string.restaurants_four_location_primaryAddressNumber),
+                        getString(R.string.restaurants_four_location_streetNameWithSuffix), getString(R.string.restaurants_four_location_cityName),
+                        getString(R.string.restaurants_four_location_UsState), getString(R.string.restaurants_four_location_UsZipCode)),
+                getString(R.string.restaurants_four_description), getString(R.string.restaurants_four_description), restaurants_four_imageResourceId));
+
+        restaurantsList.add(new Attraction(getString(R.string.restaurants_five_name),
+                new Location(getString(R.string.restaurants_five_location_primaryAddressNumber),
+                        getString(R.string.restaurants_five_location_streetNameWithSuffix), getString(R.string.restaurants_five_location_cityName),
+                        getString(R.string.restaurants_five_location_UsState), getString(R.string.restaurants_five_location_UsZipCode)),
+                getString(R.string.restaurants_five_description), getString(R.string.restaurants_five_description), restaurants_five_imageResourceId));
+
+        restaurantsList.add(new Attraction(getString(R.string.restaurants_six_name),
+                new Location(getString(R.string.restaurants_six_location_primaryAddressNumber),
+                        getString(R.string.restaurants_six_location_streetNameWithSuffix), getString(R.string.restaurants_six_location_cityName),
+                        getString(R.string.restaurants_six_location_UsState), getString(R.string.restaurants_six_location_UsZipCode)),
+                getString(R.string.restaurants_six_description), getString(R.string.restaurants_six_description), restaurants_six_imageResourceId));
 
         if (restaurantsList.get(0) != null) {
             for (Attraction restaurant : restaurantsList) {

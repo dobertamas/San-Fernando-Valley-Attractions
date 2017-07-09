@@ -14,4 +14,64 @@
         <item>Museums</item>
     </string-array>
 
+    <string name="restaurants_one_name">Jasmine Thai Cuisine</string>
+    <string name="restaurants_one_location_primaryAddressNumber">20156</string>
+    <string name="restaurants_one_location_streetNameWithSuffix">Roscoe Blvd</string>
+    <string name="restaurants_one_location_cityName">Winnetka</string>
+    <string name="restaurants_one_location_UsState">CA</string>
+    <string name="restaurants_one_location_UsZipCode">91306</string>
+    <string name="restaurants_one_description">Good Thai Food</string>
+    <string name="restaurants_one_webSiteUrl">http://www.jasminethaicuisinegroup.com/locations.html</string>
+    <string name="restaurants_one_imageResourceId">R.drawable.jasmine</string>
+
+    <string name="restaurants_two_name">Jasmine Thai Cuisine</string>
+    <string name="restaurants_two_location_primaryAddressNumber">20156</string>
+    <string name="restaurants_two_location_streetNameWithSuffix">Roscoe Blvd</string>
+    <string name="restaurants_two_location_cityName">Winnetka</string>
+    <string name="restaurants_two_location_UsState">CA</string>
+    <string name="restaurants_two_location_UsZipCode">91306</string>
+    <string name="restaurants_two_description">Good Thai Food</string>
+    <string name="restaurants_two_webSiteUrl">http://www.jasminethaicuisinegroup.com/locations.html</string>
+    <string name="restaurants_two_imageResourceId">R.drawable.jasmine</string>
+
+    <string name="restaurants_three_name">Jasmine Thai Cuisine</string>
+    <string name="restaurants_three_location_primaryAddressNumber">20156</string>
+    <string name="restaurants_three_location_streetNameWithSuffix">Roscoe Blvd</string>
+    <string name="restaurants_three_location_cityName">Winnetka</string>
+    <string name="restaurants_three_location_UsState">CA</string>
+    <string name="restaurants_three_location_UsZipCode">91306</string>
+    <string name="restaurants_three_description">Good Thai Food</string>
+    <string name="restaurants_three_webSiteUrl">http://www.jasminethaicuisinegroup.com/locations.html</string>
+    <string name="restaurants_three_imageResourceId">R.drawable.jasmine</string>
+
+    <string name="restaurants_four_name">Jasmine Thai Cuisine</string>
+    <string name="restaurants_four_location_primaryAddressNumber">20156</string>
+    <string name="restaurants_four_location_streetNameWithSuffix">Roscoe Blvd</string>
+    <string name="restaurants_four_location_cityName">Winnetka</string>
+    <string name="restaurants_four_location_UsState">CA</string>
+    <string name="restaurants_four_location_UsZipCode">91306</string>
+    <string name="restaurants_four_description">Good Thai Food</string>
+    <string name="restaurants_four_webSiteUrl">http://www.jasminethaicuisinegroup.com/locations.html</string>
+    <string name="restaurants_four_imageResourceId">R.drawable.jasmine</string>
+
+    <string name="restaurants_five_name">Jasmine Thai Cuisine</string>
+    <string name="restaurants_five_location_primaryAddressNumber">20156</string>
+    <string name="restaurants_five_location_streetNameWithSuffix">Roscoe Blvd</string>
+    <string name="restaurants_five_location_cityName">Winnetka</string>
+    <string name="restaurants_five_location_UsState">CA</string>
+    <string name="restaurants_five_location_UsZipCode">91306</string>
+    <string name="restaurants_five_description">Good Thai Food</string>
+    <string name="restaurants_five_webSiteUrl">http://www.jasminethaicuisinegroup.com/locations.html</string>
+    <string name="restaurants_five_imageResourceId">R.drawable.jasmine</string>
+
+    <string name="restaurants_six_name">Jasmine Thai Cuisine</string>
+    <string name="restaurants_six_location_primaryAddressNumber">20156</string>
+    <string name="restaurants_six_location_streetNameWithSuffix">Roscoe Blvd</string>
+    <string name="restaurants_six_location_cityName">Winnetka</string>
+    <string name="restaurants_six_location_UsState">CA</string>
+    <string name="restaurants_six_location_UsZipCode">91306</string>
+    <string name="restaurants_six_description">Good Thai Food</string>
+    <string name="restaurants_six_webSiteUrl">http://www.jasminethaicuisinegroup.com/locations.html</string>
+    <string name="restaurants_six_imageResourceId">R.drawable.jasmine</string>
+
 </resources>

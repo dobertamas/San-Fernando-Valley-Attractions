@@ -11,15 +11,11 @@ public class Attraction {
      */
     private String mName;
     /**
-     * The address you can associate with the given Attraction to be used on a maps app or on Waze to get there
-     */
-    private String mAddress;
-    /**
      * The location with all the details as an object.
      */
     private Location mLocation;
     /**
-     * Overview/mDescription about the given Attraction
+     * Overview/description about the given Attraction
      */
     private String mDescription;
     /**
@@ -32,44 +28,12 @@ public class Attraction {
      */
     private int mImageResourceId;
 
-    public Attraction(String name, String address, Location location, String description, String webSiteUrl, int imageResourceId) {
-        this.mName = name;
-        this.mAddress = address;
-        this.mLocation = location;
-        this.mDescription = description;
-        this.mWebSiteUrl = webSiteUrl;
-        this.mImageResourceId = imageResourceId;
-    }
-
-    public Attraction(String name, String address, String description, String webSiteUrl, int imageResourceId) {
-        this.mName = name;
-        this.mAddress = address;
-        this.mDescription = description;
-        this.mWebSiteUrl = webSiteUrl;
-        mImageResourceId = imageResourceId;
-    }
-
-    public Attraction(String name, String address, String description, String webSiteUrl) {
-        this.mName = name;
-        this.mAddress = address;
-        this.mDescription = description;
-        this.mWebSiteUrl = webSiteUrl;
-    }
-
     public String getName() {
         return mName;
     }
 
     public void setName(String name) {
         mName = name;
-    }
-
-    public String getAddress() {
-        return mAddress;
-    }
-
-    public void setAddress(String address) {
-        mAddress = address;
     }
 
     public Location getLocation() {
@@ -85,7 +49,7 @@ public class Attraction {
     }
 
     public void setDescription(String description) {
-        this.mDescription = description;
+        mDescription = description;
     }
 
     public String getWebSiteUrl() {
@@ -93,7 +57,7 @@ public class Attraction {
     }
 
     public void setWebSiteUrl(String webSiteUrl) {
-        this.mWebSiteUrl = webSiteUrl;
+        mWebSiteUrl = webSiteUrl;
     }
 
     public int getImageResourceId() {
@@ -104,12 +68,19 @@ public class Attraction {
         mImageResourceId = imageResourceId;
     }
 
+    public Attraction(String name, Location location, String description, String webSiteUrl, int imageResourceId) {
+        mName = name;
+        mLocation = location;
+        mDescription = description;
+        mWebSiteUrl = webSiteUrl;
+        mImageResourceId = imageResourceId;
+    }
+
     @Override public String toString() {
 
-        if (mName != null && mAddress != null && mLocation != null && mDescription != null && mWebSiteUrl != null) {
+        if (mName != null && mLocation != null && mDescription != null && mWebSiteUrl != null) {
             return "Attraction{" +
                     "mName='" + mName + '\'' +
-                    ", mAddress='" + mAddress + '\'' +
                     ", mLocation=" + mLocation.toString() +
                     ", mDescription='" + mDescription + '\'' +
                     ", mWebSiteUrl='" + mWebSiteUrl + '\'' +
