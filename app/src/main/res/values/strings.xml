@@ -195,4 +195,65 @@
     <string name="shopping_six_webSiteUrl">http://www.wholefoodsmarket.com/stores/porterranch</string>
     <string name="shopping_six_imageResourceId">-1</string>
 
+
+    <string name="drinks_one_name">Total Wine store</string>
+    <string name="drinks_one_location_primaryAddressNumber">19336</string>
+    <string name="drinks_one_location_streetNameWithSuffix">Nordhoff St</string>
+    <string name="drinks_one_location_cityName">Northridge</string>
+    <string name="drinks_one_location_UsState">CA</string>
+    <string name="drinks_one_location_UsZipCode">91324</string>
+    <string name="drinks_one_description">Shop wines, spirits and beers at the best prices</string>
+    <string name="drinks_one_webSiteUrl">http://www.totalwine.com</string>
+    <string name="drinks_one_imageResourceId">-1</string>
+
+    <string name="drinks_two_name">BevMo! store</string>
+    <string name="drinks_two_location_primaryAddressNumber">405</string>
+    <string name="drinks_two_location_streetNameWithSuffix">Cochran St</string>
+    <string name="drinks_two_location_cityName">Simi Valley</string>
+    <string name="drinks_two_location_UsState">CA</string>
+    <string name="drinks_two_location_UsZipCode">93065</string>
+    <string name="drinks_two_description">Liquor store chain offering big selection</string>
+    <string name="drinks_two_webSiteUrl">http://www.bevmo.com</string>
+    <string name="drinks_two_imageResourceId">-1</string>
+
+    <string name="drinks_three_name">Enegren Brewing Company</string>
+    <string name="drinks_three_location_primaryAddressNumber">444</string>
+    <string name="drinks_three_location_streetNameWithSuffix">Zachary St</string>
+    <string name="drinks_three_location_cityName">Moorpark</string>
+    <string name="drinks_three_location_UsState">CA</string>
+    <string name="drinks_three_location_UsZipCode">93021</string>
+    <string name="drinks_three_description">Variety of beers in an unassuming tasting room</string>
+    <string name="drinks_three_webSiteUrl">http://www.enegrenbrewing.com</string>
+    <string name="drinks_three_imageResourceId">-1</string>
+
+    <string name="drinks_four_name">MacLeod Ale Brewing Co</string>
+    <string name="drinks_four_location_primaryAddressNumber">14741</string>
+    <string name="drinks_four_location_streetNameWithSuffix">Calvert St</string>
+    <string name="drinks_four_location_cityName">Van Nuys</string>
+    <string name="drinks_four_location_UsState">CA</string>
+    <string name="drinks_four_location_UsZipCode">91411</string>
+    <string name="drinks_four_description">Microbrewery making traditional cask- conditioned British ale</string>
+    <string name="drinks_four_webSiteUrl">http://www.macleodale.com</string>
+    <string name="drinks_four_imageResourceId">-1</string>
+
+    <string name="drinks_five_name">Stone Company Store</string>
+    <string name="drinks_five_location_primaryAddressNumber">220</string>
+    <string name="drinks_five_location_streetNameWithSuffix">S Raymond Ave</string>
+    <string name="drinks_five_location_cityName">Pasadena</string>
+    <string name="drinks_five_location_UsState">CA</string>
+    <string name="drinks_five_location_UsZipCode">91105</string>
+    <string name="drinks_five_description">Tasting room and retail store with patio space</string>
+    <string name="drinks_five_webSiteUrl">http://www.stonebrewing.com</string>
+    <string name="drinks_five_imageResourceId">-1</string>
+
+    <string name="drinks_six_name">Golden Road Brewing</string>
+    <string name="drinks_six_location_primaryAddressNumber">5410</string>
+    <string name="drinks_six_location_streetNameWithSuffix">W San Fernando Rd</string>
+    <string name="drinks_six_location_cityName">Los Angeles</string>
+    <string name="drinks_six_location_UsState">CA</string>
+    <string name="drinks_six_location_UsZipCode">90039</string>
+    <string name="drinks_six_description">Globally inspired pub food paired with house beers</string>
+    <string name="drinks_six_webSiteUrl">http://goldenroad.la</string>
+    <string name="drinks_six_imageResourceId">-1</string>
+
 </resources>
