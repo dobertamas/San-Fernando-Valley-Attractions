@@ -20,13 +20,43 @@ public class ShoppingActivity extends AppCompatActivity {
         setContentView(R.layout.attraction_list);
 
         final ArrayList<Attraction> shoppingList = new ArrayList<>();
-   /*     shoppingList.add(new Attraction("T.J. Maxx La Cañada", "663 Foothill Blvd, La Cañada Flintridge, CA 91011", new Location("663", "Foothill Blvd", "La Cañada Flintridge", "CA", "91011"), "Discount retail chain featuring stylish brand-name apparel", "https://www.yelp.com/biz/t-j-maxx-la-canada-flintridge",-1));
-        shoppingList.add(new Attraction("Super King Markets", "19500 Plummer St, Northridge, CA 91324", new Location("19500", "Plummer St", "Northridge", "CA", "91324"), "Supermarket offering groceries & other sundries, a deli, a bakery", "https://superkingmarkets.com/pages/northridge-weekly-ad",-1));
-        shoppingList.add(new Attraction("Porter Ranch Walmart Supercenter", "19821 Rinaldi St, Porter Ranch, CA 91326", new Location("19821", "Rinaldi St", "Porter Ranch", "CA", "91326"), "Garden Center, Pharmacy, Photo Center, Pickup", "https://www.walmart.com/store/2526/details",-1));
-        shoppingList.add(new Attraction("Ralphs Porter Ranch", "19781 Rinaldi St, Porter Ranch, CA 91326", new Location("19781", "Rinaldi St", "Porter Ranch", "CA", "91326"), "They have sushi and sorbet", "https://www.yelp.com/biz/ralphs-los-angeles-70",-1));
-        shoppingList.add(new Attraction("Trader Joe's", "10330 Mason Ave, Chatsworth, CA 91311", new Location("10330", "Mason Ave", "Chatsworth", "CA", "91311"), "Grocery chain with a variety of signature items, plus produce, dairy", "https://www.yelp.com/biz/trader-joes-chatsworth",-1));
-        shoppingList.add(new Attraction("Whole Foods Market", "19340 Rinaldi St, Northridge, CA 91326", new Location("19340", "Rinaldi St", "Northridge", "CA", "91326"), "Eco-minded chain with natural & organic grocery items", "http://www.wholefoodsmarket.com/stores/porterranch",-1));
-*/
+
+        shoppingList.add(new Attraction(getString(R.string.shopping_one_name),
+                new Location(getString(R.string.shopping_one_location_primaryAddressNumber),
+                        getString(R.string.shopping_one_location_streetNameWithSuffix), getString(R.string.shopping_one_location_cityName),
+                        getString(R.string.shopping_one_location_UsState), getString(R.string.shopping_one_location_UsZipCode)),
+                getString(R.string.shopping_one_description), getString(R.string.shopping_one_description), -1));
+
+        shoppingList.add(new Attraction(getString(R.string.shopping_two_name),
+                new Location(getString(R.string.shopping_two_location_primaryAddressNumber),
+                        getString(R.string.shopping_two_location_streetNameWithSuffix), getString(R.string.shopping_two_location_cityName),
+                        getString(R.string.shopping_two_location_UsState), getString(R.string.shopping_two_location_UsZipCode)),
+                getString(R.string.shopping_two_description), getString(R.string.shopping_two_description), -1));
+
+        shoppingList.add(new Attraction(getString(R.string.shopping_three_name),
+                new Location(getString(R.string.shopping_three_location_primaryAddressNumber),
+                        getString(R.string.shopping_three_location_streetNameWithSuffix), getString(R.string.shopping_three_location_cityName),
+                        getString(R.string.shopping_three_location_UsState), getString(R.string.shopping_three_location_UsZipCode)),
+                getString(R.string.shopping_three_description), getString(R.string.shopping_three_description), -1));
+
+        shoppingList.add(new Attraction(getString(R.string.shopping_four_name),
+                new Location(getString(R.string.shopping_four_location_primaryAddressNumber),
+                        getString(R.string.shopping_four_location_streetNameWithSuffix), getString(R.string.shopping_four_location_cityName),
+                        getString(R.string.shopping_four_location_UsState), getString(R.string.shopping_four_location_UsZipCode)),
+                getString(R.string.shopping_four_description), getString(R.string.shopping_four_description), -1));
+
+        shoppingList.add(new Attraction(getString(R.string.shopping_five_name),
+                new Location(getString(R.string.shopping_five_location_primaryAddressNumber),
+                        getString(R.string.shopping_five_location_streetNameWithSuffix), getString(R.string.shopping_five_location_cityName),
+                        getString(R.string.shopping_five_location_UsState), getString(R.string.shopping_five_location_UsZipCode)),
+                getString(R.string.shopping_five_description), getString(R.string.shopping_five_description), -1));
+
+        shoppingList.add(new Attraction(getString(R.string.shopping_six_name),
+                new Location(getString(R.string.shopping_six_location_primaryAddressNumber),
+                        getString(R.string.shopping_six_location_streetNameWithSuffix), getString(R.string.shopping_six_location_cityName),
+                        getString(R.string.shopping_six_location_UsState), getString(R.string.shopping_six_location_UsZipCode)),
+                getString(R.string.shopping_six_description), getString(R.string.shopping_six_description), -1));
+
         // Create an {@link AttractionAdapter}, whose data source is a list of {@link Attraction}s.
         // The adapter knows how to create list items for each item in the list.
         AttractionAdapter shoppingAdapter = new AttractionAdapter(this, shoppingList);

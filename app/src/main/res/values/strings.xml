@@ -135,4 +135,64 @@
     <string name="hiking_six_webSiteUrl">https://www.yelp.com/biz/stoney-point-chatsworth-2</string>
     <string name="hiking_six_imageResourceId">-1</string>
 
+    <string name="shopping_one_name">T.J. Maxx La Cañada</string>
+    <string name="shopping_one_location_primaryAddressNumber">663</string>
+    <string name="shopping_one_location_streetNameWithSuffix">Foothill Blvd</string>
+    <string name="shopping_one_location_cityName">La Cañada Flintridge</string>
+    <string name="shopping_one_location_UsState">CA</string>
+    <string name="shopping_one_location_UsZipCode">91011</string>
+    <string name="shopping_one_description">Discount retail chain featuring stylish brand-name apparel</string>
+    <string name="shopping_one_webSiteUrl">https://www.yelp.com/biz/t-j-maxx-la-canada-flintridge</string>
+    <string name="shopping_one_imageResourceId">-1</string>
+
+    <string name="shopping_two_name">Super King Markets</string>
+    <string name="shopping_two_location_primaryAddressNumber">19500</string>
+    <string name="shopping_two_location_streetNameWithSuffix">Plummer St</string>
+    <string name="shopping_two_location_cityName">Northridge</string>
+    <string name="shopping_two_location_UsState">CA</string>
+    <string name="shopping_two_location_UsZipCode">91324</string>
+    <string name="shopping_two_description">Supermarket offering groceries and other sundries, a deli, a bakery</string>
+    <string name="shopping_two_webSiteUrl">https://superkingmarkets.com/pages/northridge-weekly-ad</string>
+    <string name="shopping_two_imageResourceId">-1</string>
+
+    <string name="shopping_three_name">Porter Ranch Walmart Supercenter</string>
+    <string name="shopping_three_location_primaryAddressNumber">19821</string>
+    <string name="shopping_three_location_streetNameWithSuffix">Rinaldi St</string>
+    <string name="shopping_three_location_cityName">Porter Ranch</string>
+    <string name="shopping_three_location_UsState">CA</string>
+    <string name="shopping_three_location_UsZipCode">91326</string>
+    <string name="shopping_three_description">Garden Center, Pharmacy, Photo Center, Pickup</string>
+    <string name="shopping_three_webSiteUrl">https://www.walmart.com/store/2526/details</string>
+    <string name="shopping_three_imageResourceId">-1</string>
+
+    <string name="shopping_four_name">Ralphs Porter Ranch</string>
+    <string name="shopping_four_location_primaryAddressNumber">19781</string>
+    <string name="shopping_four_location_streetNameWithSuffix">Rinaldi St</string>
+    <string name="shopping_four_location_cityName">Porter Ranch</string>
+    <string name="shopping_four_location_UsState">CA</string>
+    <string name="shopping_four_location_UsZipCode">91326</string>
+    <string name="shopping_four_description">They have sushi and sorbet</string>
+    <string name="shopping_four_webSiteUrl">https://www.yelp.com/biz/ralphs-los-angeles-70</string>
+    <string name="shopping_four_imageResourceId">-1</string>
+
+    <string name="shopping_five_name">Trader Joe\'s</string>
+    <string name="shopping_five_location_primaryAddressNumber">10330</string>
+    <string name="shopping_five_location_streetNameWithSuffix">Mason Ave</string>
+    <string name="shopping_five_location_cityName">Chatsworth</string>
+    <string name="shopping_five_location_UsState">CA</string>
+    <string name="shopping_five_location_UsZipCode">91303</string>
+    <string name="shopping_five_description">Grocery chain with a variety of signature items, plus produce, dairy</string>
+    <string name="shopping_five_webSiteUrl">https://www.yelp.com/biz/trader-joes-chatsworth</string>
+    <string name="shopping_five_imageResourceId">-1</string>
+
+    <string name="shopping_six_name">Whole Foods Market</string>
+    <string name="shopping_six_location_primaryAddressNumber">19340</string>
+    <string name="shopping_six_location_streetNameWithSuffix">Rinaldi St</string>
+    <string name="shopping_six_location_cityName">Northridge</string>
+    <string name="shopping_six_location_UsState">CA</string>
+    <string name="shopping_six_location_UsZipCode">91326</string>
+    <string name="shopping_six_description">Eco-minded chain with natural and organic grocery items</string>
+    <string name="shopping_six_webSiteUrl">http://www.wholefoodsmarket.com/stores/porterranch</string>
+    <string name="shopping_six_imageResourceId">-1</string>
+
 </resources>
